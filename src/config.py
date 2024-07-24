@@ -1,0 +1,2 @@
+class Config:
+    CURRENCY = 'USD'

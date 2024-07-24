@@ -20,10 +20,11 @@ class Vehicle:
 
     def display_info(self):
         """
-        Exibe informações sobre o veículo.
+        Exibe informações do veículo.
+
+        :return: String com as informações do veículo
         """
-        info = f"{self.brand} {self.model} ({self.year}) - ${self.daily_price}/dia"
-        return info
+        return f"Marca: {self.brand}, Modelo: {self.model}, Ano: {self.year}, Preço por dia: {self.daily_price}"
 
     def rent(self):
         """
