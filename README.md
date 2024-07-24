@@ -14,30 +14,13 @@ Este projeto é um sistema de locação de veículos desenvolvido em Python, uti
 ## Estrutura do Projeto
 
 vehicle_rental
-├── src
-│ ├── main.py: Arquivo principal que integra todas as funcionalidades do sistema e fornece a interface de linha de comando.
-│ ├── config.py: Contém configurações do projeto, como informações de moeda.
-│ ├── controllers
-│ │ ├── init.py
-│ │ └── rental_controller.py: Controlador responsável pela interação entre a interface do usuário e o serviço de aluguel.
-│ ├── models: Define a classe base `Vehicle` e suas subclasses `Car`, `Motorcycle` e `Truck`.
-│ │ ├── init.py
-│ │ ├── vehicle.py
-│ │ ├── car.py
-│ │ ├── motorcycle.py
-│ │ └── truck.py
-│ ├── services
-│ │ ├── init.py
-│ │ └── rental_service.py: Serviço que gerencia a lógica de aluguel de veículos e mantém o estado dos veículos.
-│ ├── utils
-│ │ ├── init.py
-│ │ └── helpers.py: Contém funções auxiliares, como a formatação de preços.
-├── tests
-│ ├── init.py
-│ └── test_rental.py: Contém os testes das funcionalidades do projeto
-├── requirements.txt
-└── README.md
-
+- main.py: Arquivo principal que integra todas as funcionalidades do sistema e fornece a interface de linha de comando.
+- config.py: Contém configurações do projeto, como informações de moeda.
+- rental_controller.py: Controlador responsável pela interação entre a interface do usuário e o serviço de aluguel.
+- models: Define a classe base `Vehicle` e suas subclasses `Car`, `Motorcycle` e `Truck`.
+- rental_service.py: Serviço que gerencia a lógica de aluguel de veículos e mantém o estado dos veículos.
+- helpers.py: Contém funções auxiliares, como a formatação de preços.
+- test_rental.py: Contém os testes das funcionalidades do projeto
 
 ## Como Executar
 
