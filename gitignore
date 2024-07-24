@@ -10,9 +10,9 @@ src/services/__pycache__/
 src/tests/__pycache__/
 src/utils/__pycache__/
 env/
-venv/
+*.venv/
 *.env
-*.egg-info/
+*.egg-info
 dist/
 build/
 *.log
